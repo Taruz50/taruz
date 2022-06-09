@@ -143,6 +143,11 @@ html {
   font-size: 27px;
 }
 
+.home .home-content .text-3 {
+  font-size: 27px;
+  color: red;
+}
+
 .home .home-content .text-2 {
   font-size: 75px;
   font-weight: 600;

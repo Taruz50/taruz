@@ -278,29 +278,35 @@
         <div class="column right">
           <div class="text">Message Me</div>
           <p><b>NB - <sup><small>*</small></sup>These fields are mandatory</b></p>
-          <form action="https://formsubmit.co/andrewtaruz50@gmail.com" method="POST">
+          <form action="https://formsubmit.co/da09908099fb412eeca0e8963bbba50e" method="POST">
+            <!--  HONEYPOT  -->
+            <input type="text" name="_honey" style="display: none;">
+
+            <!--THANK YOU PAGE-->
+
+            <input type="hidden" name="_next" value="https://taruz50.github.io/resume/success.htm">
             <div class="fields">
               <div class="field name">
-                <input type="text" placeholder="Name" required>
+                <input type="text"name="name" placeholder="Name" required>
                 <span id="form-text"></span>
               </div>
               <div class="field name">
-                <input type="text" placeholder="Surname" required>
+                <input type="text" name="Last&nbsp;Name" placeholder="Surname" required>
                 <span id="form-text"></span>
               </div>
 
             </div>
             <div class="field" id="form">
               <div class="field email">
-                <input type="text" placeholder="Enter Email address" id="email" required onkeydown="validation()">
+                <input type="text" name="email" placeholder="Enter Email address" id="email" required onkeydown="validation()">
                 <span id="form-text"></span>
               </div>
             </div>
             <div class="field textarea">
-              <textarea cols="30" rows="10" placeholder="Describe what's on your mind"></textarea>
+              <textarea cols="30" name="Description" rows="10" placeholder="Describe what's on your mind"></textarea>
             </div>
             <div class="button">
-              <button type="submit" name="button">Send Message</button>
+              <button type="submit">Send Message</button>
             </div>
         </div>
         </form>
