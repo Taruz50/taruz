@@ -11,6 +11,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-image: linear-gradient(white,darkgrey);
+}
+
 .scroll-up-btn {
   position: fixed;
   height: 45px;
@@ -197,7 +201,7 @@ section {
   content: "Who I AM";
   position: absolute;
   padding: 5px;
-  background: #fff;
+  background-image: linear-gradient(darkgray,white);
   bottom: -12px;
   left: 50%;
   transform: translateX(-50%);
@@ -332,7 +336,7 @@ section .title::after {
 .skills .skills-content .right .line {
   height: 5px;
   width: 100%;
-  background: lightgrey;
+  background: grey;
   position: relative;
 }
 
@@ -408,7 +412,7 @@ section .title::after {
   content: "Who I AM";
   position: absolute;
   padding: 5px;
-  background: #fff;
+  background-image: linear-gradient(white,lightgrey);
   bottom: -12px;
   left: 50%;
   transform: translateX(-50%);
@@ -424,7 +428,7 @@ section .title::after {
   content: "Get In Touch!";
   position: absolute;
   padding: 5px;
-  background: #fff;
+  background-image: linear-gradient(white,darkgray);
   bottom: -12px;
   left: 50%;
   transform: translateX(-50%);
